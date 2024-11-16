@@ -15,7 +15,7 @@
         
         // Reproducir el audio
         audio.play().then(() => {
-            document.getElementById('reproductor').volume = 0.1;
+            document.getElementById('reproductor').volume = 0.6;
             console.log('Audio iniciado.');
         }).catch(error => {
             console.log('Error al reproducir el audio:', error);
